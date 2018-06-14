@@ -60,7 +60,7 @@ function currentLine(line) {
   }
 
   return `The line is currently: ${numbersAndNames.join(', ')}`
-};
+}
 
 function nowServing(line) {
   if (!line.length) {
@@ -68,12 +68,11 @@ function nowServing(line) {
   }
 
   return `Currently serving ${line.shift()}.`
-};
+}
 
 function takeANumber(line, name) {
   line.push(name)
 
   return `Welcome, ${name}. You are number ${line.length} in line.`
-};
-=======
->>>>>>> f11679221183f6f3369117126119b79323e7e41a
+}
+
